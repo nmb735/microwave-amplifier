@@ -120,8 +120,8 @@ fprintf('\n================= RESULTS =================\n');
 fprintf('Δ (Delta)              : %.4f ∠ %.2f°\n', abs(delta), rad2deg(angle(delta)));
 fprintf('Gt (Max Gain)          : %.2f dB\n', Gt);
 fprintf('K (Stability Factor)   : %.4f\n', K);
-fprintf('Input Match |Γs|       : %.4f\n', abs(Rho_s));
-fprintf('Output Match |Γl|      : %.4f\n', abs(Rho_l));
-fprintf('============================================\n');
+fprintf('|ρ_s| = %.4f, ∠ρ_s = %.2f°\n', abs(Rho_s), rad2deg(angle(Rho_s)));
+fprintf('|ρ_l| = %.4f, ∠ρ_l = %.2f°\n', abs(Rho_l), rad2deg(angle(Rho_l)));
+fprintf('===========================================\n\n');
 
 
